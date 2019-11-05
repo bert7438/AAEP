@@ -7,4 +7,9 @@ public class MyView extends View {
     public MyView(Context context){
         super(context);
     }
+
+    //this variables is used for initializing
+    boolean playing = false;
+    int N = 10;
+    
 }
